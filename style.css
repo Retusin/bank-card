@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 300px;
+	max-width: 1011px;
+}
+
+.card {
+	border-radius: 38px;
+	padding: 80px;
+	background-image: url("img/baseShapeBG.jpg");
+	background-repeat: no-repeat;
+}
+
+.card-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 189px;
+}
+
+.card-number {
+	display: flex;
+	align-items: center;
+	margin-bottom: 44px;
+}
+
+.card-number__item {
+	display: flex;
+}
+
+.card-number__item:not(:last-child) {
+	margin-right: 48px;
+}
+
+.card-number__dots {
+	margin-right: 10px;
+}
+
+.card-number__value {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 75px;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: #ffffff;
+}
+
+.card-holder {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-holder__name {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 60px;
+	color: #fff;
+}
+
+.card-holder__date {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: right;
+	letter-spacing: 0.04em;
+	color: #fff;
+}
